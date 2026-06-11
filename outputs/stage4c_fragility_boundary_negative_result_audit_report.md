@@ -2,6 +2,7 @@
 
 **Date:** 2026-06-10  
 **Implementation branch:** `feature/stage4c-fragility-boundary-negative-result-audit`  
+**Implementation commit hash:** `588817d`  
 **Base branch:** `feature/stage0-repository-foundation`
 
 ## Executive summary
