@@ -2,25 +2,23 @@
 
 Extension of the Time Delay Field (TDF) program exploring whether a **time-first** model can generate emergent space, effective gravity, stable particle-like structures, and later QM-like behavior.
 
-**Current stage:** Stage 4B — Candidate robustness and nontrivial-stability tests.
+**Current stage:** Stage 3C — Fundamental TDF Action discovery (Stages 4A–4B preserved).
 
 ## Mission
 
 Build deterministic, testable scaffolding around locked temporal primitives (`t_q`, `N_t`, `Δτ`) and emergent spatial packet counts—without claiming derived GR, QM, Standard Model particles, or validated fundamental constants.
 
-## Stage 4B — Candidate robustness and nontrivial-stability
+## Stage 3C — Fundamental TDF Action discovery
 
-Stage 4B distinguishes trivial stability (identity controls), spreading (relaxation), and possible nontrivial toy stability under:
+Stage 3C implements a conservative Action-discovery framework: seven minimal toy Actions (A0–A6), outcome metrics, deterministic benchmark seeds, and behavior classification.
 
-- Deterministic perturbation tests
-- `conservative_centered_cohesion` toy retention rule (not physics)
-- Classifications: `TRIVIAL_STABLE_CONTROL`, `NONTRIVIAL_STABLE_TOY_CANDIDATE`, `INCONCLUSIVE`, `FAIL`
+Actions are evaluated **before** continuing particle-like, GR-like, or QM-like construction. Stage 4B fragility results remain useful context; Stage 3C returns to the fundamental temporal evolution question.
 
-**Stage 4B does not identify electron-like candidates.** A nontrivial-stable toy label means study further in Stage 4C/5 criteria only—not a particle claim.
+**Stage 3C does not derive GR, QM, particles, or electrons.**
 
-## Stage 4A — Stable localized structure search
+## Stage 4B — Candidate robustness (prior)
 
-Active-support candidate search with PASS / INCONCLUSIVE / FAIL verdicts. Stage 4A found 0 PASS under default relaxation (3 INCONCLUSIVE).
+Stage 4B found sparse unperturbed nontrivial labels with robustness ratio ≈ 0.077 under cohesion—fragile toy artifacts under perturbation.
 
 ## Install
 
@@ -42,11 +40,12 @@ python -m pytest
 
 - [Canonical reference](docs/canonical_reference.md) — locked definitions and claim maturity
 - [Roadmap](docs/roadmap.md) — staged development plan
+- [Stage 3C Action discovery](docs/stage3c_fundamental_tdf_action_discovery.md)
 - [Stage 4B robustness](docs/stage4b_candidate_robustness_nontrivial_stability.md)
 
 ## Scientific caution
 
-This repository contains **working definitions and toy-model code only**. It does **not** derive GR, QM, electrons, mass, charge, spin, **ħ**, or **α**, or provide experimental validation. FAIL, INCONCLUSIVE, and weak nontrivial toy labels are acceptable scientific outcomes.
+This repository contains **working definitions and toy-model code only**. It does **not** derive GR, QM, electrons, mass, charge, spin, **ħ**, or **α**, or provide experimental validation. Negative, inconclusive, and fragile outcomes are acceptable scientific results.
 
 ## License
 

@@ -45,6 +45,8 @@ outputs/*
 !outputs/stage3a_delta_tau_field_proxy_summary.json
 !outputs/stage3b_5d_packet_structure_history_report.md
 !outputs/stage3b_5d_packet_structure_history_summary.json
+!outputs/stage3c_fundamental_tdf_action_discovery_report.md
+!outputs/stage3c_fundamental_tdf_action_discovery_summary.json
 !outputs/stage4a_stable_localized_structure_search_report.md
 !outputs/stage4a_stable_localized_structure_search_summary.json
 !outputs/stage4b_candidate_robustness_nontrivial_stability_report.md

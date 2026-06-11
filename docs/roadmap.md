@@ -9,6 +9,7 @@ Staged development plan for the Temporal Quantum Foundation. Each stage builds o
 | **2** | Emergent space toy model | Spatial neighborhoods, provisional metrics |
 | **3A** | Delta tau field proxy primitives | Distributed tau fields, gradients, Laplacian/direction proxies |
 | **3B** | 5D packet-structure history and stability | Field evolution, histories, toy persistence diagnostics |
+| **3C** | Fundamental TDF Action discovery | Minimal conservative Actions, metrics, benchmark catalog |
 | **3** | Delta tau gravity proxy (full) | Newtonian/GR-like effective comparisons (future) |
 | **4A** | Stable localized Δτ structure search | Active-support candidate search (toy criteria) |
 | **4B** | Candidate robustness tests | Nontrivial-stability and perturbation tests |
@@ -21,4 +22,4 @@ Staged development plan for the Temporal Quantum Foundation. Each stage builds o
 | **9** | QM exploratory layer | Exploratory QM-like behavior (not assumed derived) |
 | **10** | Documentation and Zenodo drafts | Publication-ready artifacts |
 
-**Current stage:** 4B — Candidate robustness and nontrivial-stability tests.
+**Current stage:** 3C — Fundamental TDF Action discovery (Stages 4A–4B outputs preserved).

@@ -1,5 +1,18 @@
 """TDF_TQ — Temporal Quantum Foundation."""
 
+from tdf_tq.action_catalog import (
+    benchmark_seed_catalog,
+    run_action_catalog_benchmark,
+    run_stage3c_action_discovery,
+    scan_for_overclaim_phrases,
+)
+from tdf_tq.action_metrics import METRIC_DEFINITIONS, compute_action_metrics
+from tdf_tq.actions import (
+    ActionEvolutionState,
+    ActionSpec,
+    default_action_catalog,
+    run_action_steps,
+)
 from tdf_tq.candidates import (
     CandidateEvaluation,
     LocalizedCandidateCriteria,
@@ -119,6 +132,9 @@ __all__ = [
     "CLASS_INCONCLUSIVE",
     "CLASS_NONTRIVIAL_STABLE_TOY_CANDIDATE",
     "CLASS_TRIVIAL_STABLE_CONTROL",
+    "ActionEvolutionState",
+    "ActionSpec",
+    "METRIC_DEFINITIONS",
     "CandidateEvaluation",
     "DeltaTauField",
     "FieldEvolutionConfig",
@@ -143,7 +159,9 @@ __all__ = [
     "active_tau_profile_l1_difference",
     "active_tau_values_above_baseline",
     "anchor_counts_from_field",
-    "best_candidate_evaluation",
+    "benchmark_seed_catalog",
+    "compute_action_metrics",
+    "default_action_catalog",
     "best_stage4b_result",
     "classify_nontrivial_stability",
     "compact_square_field",
@@ -176,6 +194,11 @@ __all__ = [
     "radial_delta_tau_field",
     "move_one_excess_tau_to_neighbor",
     "run_field_evolution",
+    "run_action_catalog_benchmark",
+    "run_action_steps",
+    "run_stage3c_action_discovery",
+    "scan_for_overclaim_phrases",
+    "best_candidate_evaluation",
     "run_stable_localized_structure_search",
     "run_stage4b_robustness_suite",
     "same_spatial_position",
