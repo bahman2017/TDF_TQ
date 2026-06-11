@@ -2,7 +2,9 @@
 
 **Date:** 2026-06-10  
 **Branch:** `feature/stage1-temporal-packet-primitives`  
-**Commit hash:** `8b13724`
+**Commits:**
+- `8b13724` — Stage 1 temporal packet primitives
+- `27b2ee7` — Stage 1 output report
 
 ## Changed files
 

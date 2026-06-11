@@ -1,0 +1,27 @@
+{
+  "packet_a": {
+    "N_a": 0,
+    "N_b": 0,
+    "N_c": 0,
+    "N_t": 2
+  },
+  "packet_b": {
+    "N_a": 2,
+    "N_b": 1,
+    "N_c": 0,
+    "N_t": 2
+  },
+  "l_q": 1.5,
+  "spatial_count_l1_distance": 3,
+  "emergent_manhattan_distance": 4.5,
+  "emergent_euclidean_distance": 3.3541019662496847,
+  "spatial_graph_distance_steps": 3,
+  "deterministic_path_as_counts": [
+    [0, 0, 0],
+    [1, 0, 0],
+    [2, 0, 0],
+    [2, 1, 0]
+  ],
+  "N_t_fixed_for_path": 2,
+  "note": "Graph/count scaffolding only; not motion, dynamics, or physical space."
+}
