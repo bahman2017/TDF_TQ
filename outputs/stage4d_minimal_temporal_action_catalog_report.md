@@ -2,6 +2,7 @@
 
 **Date:** 2026-06-10  
 **Implementation branch:** `feature/stage4d-minimal-temporal-action-catalog`  
+**Implementation commit hash:** `445db9b`  
 **Base branch:** `feature/stage0-repository-foundation` (Stage 4C merged at `60126f1`)
 
 ## Executive summary
