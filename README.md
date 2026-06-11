@@ -2,26 +2,25 @@
 
 Extension of the Time Delay Field (TDF) program exploring whether a **time-first** model can generate emergent space, effective gravity, stable particle-like structures, and later QM-like behavior.
 
-**Current stage:** Stage 4A — Stable localized Delta tau packet-structure search.
+**Current stage:** Stage 4B — Candidate robustness and nontrivial-stability tests.
 
 ## Mission
 
 Build deterministic, testable scaffolding around locked temporal primitives (`t_q`, `N_t`, `Δτ`) and emergent spatial packet counts—without claiming derived GR, QM, Standard Model particles, or validated fundamental constants.
 
+## Stage 4B — Candidate robustness and nontrivial-stability
+
+Stage 4B distinguishes trivial stability (identity controls), spreading (relaxation), and possible nontrivial toy stability under:
+
+- Deterministic perturbation tests
+- `conservative_centered_cohesion` toy retention rule (not physics)
+- Classifications: `TRIVIAL_STABLE_CONTROL`, `NONTRIVIAL_STABLE_TOY_CANDIDATE`, `INCONCLUSIVE`, `FAIL`
+
+**Stage 4B does not identify electron-like candidates.** A nontrivial-stable toy label means study further in Stage 4C/5 criteria only—not a particle claim.
+
 ## Stage 4A — Stable localized structure search
 
-Stage 4A searches for **localized stable packet-structure candidates** on the 5D toy state-space `(N_a, N_b, N_c, N_t)` plus update-history index `k`:
-
-- **Active support** above a fixed baseline (not full lattice support)
-- Deterministic seed patterns (single peak, plus-cross, compact block)
-- Conservative pairwise relaxation evolution
-- `LocalizedCandidateCriteria` → PASS / INCONCLUSIVE / FAIL
-
-**Passing Stage 4A is not an electron-like candidate yet.** Results are toy candidates only—not particles, not electrons, not validated physics.
-
-## Stage 3B — 5D packet-structure history
-
-Field evolution, structure histories, persistence diagnostics on full packet states.
+Active-support candidate search with PASS / INCONCLUSIVE / FAIL verdicts. Stage 4A found 0 PASS under default relaxation (3 INCONCLUSIVE).
 
 ## Install
 
@@ -43,19 +42,11 @@ python -m pytest
 
 - [Canonical reference](docs/canonical_reference.md) — locked definitions and claim maturity
 - [Roadmap](docs/roadmap.md) — staged development plan
-- [Scientific boundaries](docs/scientific_boundaries.md) — what this repo is and is not
-- [Stage 4A structure search](docs/stage4a_stable_localized_delta_tau_structure_search.md)
+- [Stage 4B robustness](docs/stage4b_candidate_robustness_nontrivial_stability.md)
 
 ## Scientific caution
 
-This repository contains **working definitions and toy-model code only**. It does **not**:
-
-- derive general relativity, Newtonian gravity, or quantum mechanics;
-- identify electrons, photons, mass, charge, spin, **ħ**, or **α**;
-- provide experimental validation;
-- claim that Stage 4A candidates are particles or electron-like structures.
-
-FAIL and INCONCLUSIVE search outcomes are scientifically acceptable. Read all results through the claim maturity hierarchy in the canonical reference.
+This repository contains **working definitions and toy-model code only**. It does **not** derive GR, QM, electrons, mass, charge, spin, **ħ**, or **α**, or provide experimental validation. FAIL, INCONCLUSIVE, and weak nontrivial toy labels are acceptable scientific outcomes.
 
 ## License
 

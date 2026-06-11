@@ -18,10 +18,26 @@ from tdf_tq.distances import (
 )
 from tdf_tq.dynamics import (
     FieldEvolutionConfig,
+    conservative_centered_cohesion_step,
     conservative_pairwise_relaxation_step,
     identity_step,
     run_field_evolution,
     spatial_edges,
+)
+from tdf_tq.nontriviality import (
+    CLASS_FAIL,
+    CLASS_INCONCLUSIVE,
+    CLASS_NONTRIVIAL_STABLE_TOY_CANDIDATE,
+    CLASS_TRIVIAL_STABLE_CONTROL,
+    NontrivialStabilityAssessment,
+    classify_nontrivial_stability,
+)
+from tdf_tq.robustness import (
+    RobustnessResult,
+    anchor_counts_from_field,
+    deterministic_single_step_perturbations,
+    evaluate_candidate_robustness,
+    move_one_excess_tau_to_neighbor,
 )
 from tdf_tq.fields import (
     DeltaTauField,
@@ -73,7 +89,12 @@ from tdf_tq.relations import (
     same_temporal_layer,
     translate_packet,
 )
-from tdf_tq.search import best_candidate_evaluation, run_stable_localized_structure_search
+from tdf_tq.search import (
+    best_candidate_evaluation,
+    best_stage4b_result,
+    run_stable_localized_structure_search,
+    run_stage4b_robustness_suite,
+)
 from tdf_tq.space import SpatialBounds, SpatialSlice
 from tdf_tq.stability import is_history_quasi_stable, structure_persistence_score
 from tdf_tq.structure import (
@@ -94,10 +115,16 @@ __all__ = [
     "C_SYMBOL",
     "L_Q_SYMBOL",
     "T_Q_SYMBOL",
+    "CLASS_FAIL",
+    "CLASS_INCONCLUSIVE",
+    "CLASS_NONTRIVIAL_STABLE_TOY_CANDIDATE",
+    "CLASS_TRIVIAL_STABLE_CONTROL",
     "CandidateEvaluation",
     "DeltaTauField",
     "FieldEvolutionConfig",
     "LocalizedCandidateCriteria",
+    "NontrivialStabilityAssessment",
+    "RobustnessResult",
     "PacketDelta",
     "PacketStructure",
     "SpatialBounds",
@@ -115,9 +142,15 @@ __all__ = [
     "active_support_size_series",
     "active_tau_profile_l1_difference",
     "active_tau_values_above_baseline",
+    "anchor_counts_from_field",
     "best_candidate_evaluation",
+    "best_stage4b_result",
+    "classify_nontrivial_stability",
     "compact_square_field",
+    "conservative_centered_cohesion_step",
     "conservative_pairwise_relaxation_step",
+    "deterministic_single_step_perturbations",
+    "evaluate_candidate_robustness",
     "delta_tau",
     "delta_tau_matches",
     "deterministic_seed_suite",
@@ -141,8 +174,10 @@ __all__ = [
     "packet_structure_from_field",
     "plus_cross_field",
     "radial_delta_tau_field",
+    "move_one_excess_tau_to_neighbor",
     "run_field_evolution",
     "run_stable_localized_structure_search",
+    "run_stage4b_robustness_suite",
     "same_spatial_position",
     "same_temporal_layer",
     "single_peak_field",
