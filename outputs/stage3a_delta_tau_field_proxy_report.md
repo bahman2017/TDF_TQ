@@ -2,7 +2,9 @@
 
 **Date:** 2026-06-10  
 **Branch:** `feature/stage3a-delta-tau-field-proxy-primitives`  
-**Commit hash:** `c192a16`
+**Commits:**
+- `c192a16` — Stage 3A delta tau field proxy primitives
+- `f35e97c` — Stage 3A output report
 
 ## Changed files
 
