@@ -2,7 +2,10 @@
 
 **Date:** 2026-06-10  
 **Branch:** `feature/stage4a-stable-localized-delta-tau-structure-search`  
-**Commit hash:** `9c639ef`
+**Commits:**
+- `9c639ef` — Stage 4A stable localized delta tau structure search
+- `f2a4a8e` — Stage 4A output report
+- `9310952` — Stage 4A integration merge into `feature/stage0-repository-foundation`
 
 ## Changed files
 

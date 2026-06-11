@@ -1,0 +1,123 @@
+{
+  "statement": "Stage 4B tests robustness and nontriviality of toy localized Delta tau packet-structure candidates only; not particles and not electrons.",
+  "search_config": {
+    "bounds": {"max_N_a": 2, "max_N_b": 2, "max_N_c": 0},
+    "baseline_tau": 10,
+    "excess_tau": 10,
+    "steps": 3,
+    "evolution_config": {"threshold": 2, "max_transfer_per_edge": 1},
+    "update_rules": ["identity", "conservative_pairwise_relaxation", "conservative_centered_cohesion"]
+  },
+  "criteria": {
+    "min_total_excess_tau": 1,
+    "max_final_active_support_size": 6,
+    "min_final_localization_ratio": 0.2,
+    "max_center_drift": 1.0,
+    "max_active_tau_profile_l1_step_change": 12,
+    "min_active_support_overlap": 0.25,
+    "require_total_tau_conserved": true
+  },
+  "results": [
+    {
+      "seed_label": "compact_2x2_corner",
+      "update_rule_label": "conservative_centered_cohesion",
+      "perturbation_count": 13,
+      "stable_count": 1,
+      "inconclusive_count": 0,
+      "fail_count": 12,
+      "robustness_ratio": 0.07692307692307693,
+      "classifications_summary": {"NONTRIVIAL_STABLE_TOY_CANDIDATE": 1, "FAIL": 12}
+    },
+    {
+      "seed_label": "compact_2x2_corner",
+      "update_rule_label": "conservative_pairwise_relaxation",
+      "perturbation_count": 13,
+      "stable_count": 0,
+      "inconclusive_count": 13,
+      "fail_count": 0,
+      "robustness_ratio": 0.0,
+      "classifications_summary": {"INCONCLUSIVE": 13}
+    },
+    {
+      "seed_label": "compact_2x2_corner",
+      "update_rule_label": "identity",
+      "perturbation_count": 13,
+      "stable_count": 0,
+      "inconclusive_count": 0,
+      "fail_count": 0,
+      "robustness_ratio": 0.0,
+      "classifications_summary": {"TRIVIAL_STABLE_CONTROL": 13}
+    },
+    {
+      "seed_label": "plus_cross_center",
+      "update_rule_label": "conservative_centered_cohesion",
+      "perturbation_count": 13,
+      "stable_count": 1,
+      "inconclusive_count": 0,
+      "fail_count": 12,
+      "robustness_ratio": 0.07692307692307693,
+      "classifications_summary": {"NONTRIVIAL_STABLE_TOY_CANDIDATE": 1, "FAIL": 12}
+    },
+    {
+      "seed_label": "plus_cross_center",
+      "update_rule_label": "conservative_pairwise_relaxation",
+      "perturbation_count": 13,
+      "stable_count": 0,
+      "inconclusive_count": 13,
+      "fail_count": 0,
+      "robustness_ratio": 0.0,
+      "classifications_summary": {"INCONCLUSIVE": 13}
+    },
+    {
+      "seed_label": "plus_cross_center",
+      "update_rule_label": "identity",
+      "perturbation_count": 13,
+      "stable_count": 0,
+      "inconclusive_count": 0,
+      "fail_count": 0,
+      "robustness_ratio": 0.0,
+      "classifications_summary": {"TRIVIAL_STABLE_CONTROL": 13}
+    },
+    {
+      "seed_label": "single_peak_center",
+      "update_rule_label": "conservative_centered_cohesion",
+      "perturbation_count": 5,
+      "stable_count": 0,
+      "inconclusive_count": 0,
+      "fail_count": 4,
+      "robustness_ratio": 0.0,
+      "classifications_summary": {"TRIVIAL_STABLE_CONTROL": 1, "FAIL": 4}
+    },
+    {
+      "seed_label": "single_peak_center",
+      "update_rule_label": "conservative_pairwise_relaxation",
+      "perturbation_count": 5,
+      "stable_count": 0,
+      "inconclusive_count": 5,
+      "fail_count": 0,
+      "robustness_ratio": 0.0,
+      "classifications_summary": {"INCONCLUSIVE": 5}
+    },
+    {
+      "seed_label": "single_peak_center",
+      "update_rule_label": "identity",
+      "perturbation_count": 5,
+      "stable_count": 0,
+      "inconclusive_count": 0,
+      "fail_count": 0,
+      "robustness_ratio": 0.0,
+      "classifications_summary": {"TRIVIAL_STABLE_CONTROL": 5}
+    }
+  ],
+  "best_result": {
+    "seed_label": "compact_2x2_corner",
+    "update_rule_label": "conservative_centered_cohesion",
+    "stable_count": 1,
+    "robustness_ratio": 0.07692307692307693
+  },
+  "count_nontrivial_stable": 2,
+  "count_trivial_controls": 32,
+  "count_inconclusive": 31,
+  "count_fail": 28,
+  "conclusion": "At least one nontrivial stable toy candidate passed Stage 4B robustness criteria; this is not a particle or electron claim."
+}
