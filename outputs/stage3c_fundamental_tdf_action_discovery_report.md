@@ -2,6 +2,7 @@
 
 **Date:** 2026-06-10  
 **Implementation branch:** `feature/stage3c-fundamental-tdf-action-discovery`  
+**Implementation commit hash:** `09a4c39`  
 **Base branch:** `feature/stage0-repository-foundation`
 
 ## Executive summary
