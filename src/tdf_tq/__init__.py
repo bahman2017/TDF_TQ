@@ -11,6 +11,18 @@ from tdf_tq.distances import (
     emergent_euclidean_distance,
     spatial_count_delta,
 )
+from tdf_tq.fields import (
+    DeltaTauField,
+    radial_delta_tau_field,
+    uniform_delta_tau_field,
+)
+from tdf_tq.gravity_proxy import (
+    finite_difference_gradient,
+    gradient_magnitude,
+    gravity_like_direction_proxy,
+    laplacian_proxy,
+    normalized_direction,
+)
 from tdf_tq.metrics import (
     deterministic_spatial_path,
     emergent_manhattan_distance,
@@ -38,6 +50,7 @@ __all__ = [
     "C_SYMBOL",
     "L_Q_SYMBOL",
     "T_Q_SYMBOL",
+    "DeltaTauField",
     "PacketDelta",
     "SpatialBounds",
     "SpatialSlice",
@@ -48,8 +61,14 @@ __all__ = [
     "emergent_euclidean_distance",
     "emergent_manhattan_distance",
     "emergent_unit_edge_length",
+    "finite_difference_gradient",
+    "gradient_magnitude",
+    "gravity_like_direction_proxy",
     "is_spatial_unit_neighbor",
+    "laplacian_proxy",
+    "normalized_direction",
     "packet_delta",
+    "radial_delta_tau_field",
     "same_spatial_position",
     "same_temporal_layer",
     "spatial_count_delta",
@@ -58,6 +77,7 @@ __all__ = [
     "spatial_unit_axis",
     "spatial_unit_neighbors",
     "translate_packet",
+    "uniform_delta_tau_field",
     "working_speed_limit",
 ]
 

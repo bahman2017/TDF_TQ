@@ -1,0 +1,22 @@
+{
+  "bounds": {
+    "max_N_a": 2,
+    "max_N_b": 2,
+    "max_N_c": 0
+  },
+  "slice_N_t_reference": 0,
+  "center": [0, 0, 0],
+  "base_tau": 10,
+  "strength": 2,
+  "evaluated_counts": [1, 1, 0],
+  "tau_at_evaluated_counts": 14,
+  "mean_tau": 14.0,
+  "min_tau": 10,
+  "max_tau": 18,
+  "finite_difference_gradient": [2.0, 2.0, 0.0],
+  "gradient_magnitude": 2.8284271247461903,
+  "laplacian_proxy": 0.0,
+  "gravity_like_direction_proxy": [-2.0, -2.0, -0.0],
+  "normalized_gravity_like_direction_proxy": [-0.7071067811865475, -0.7071067811865475, -0.0],
+  "statement": "Toy count-lattice proxy only; not GR curvature, not Newtonian gravity, not physical force."
+}

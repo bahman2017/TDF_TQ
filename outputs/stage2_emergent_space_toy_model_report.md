@@ -2,7 +2,9 @@
 
 **Date:** 2026-06-10  
 **Branch:** `feature/stage2-emergent-space-toy-model`  
-**Commit hash:** `432796b`
+**Commits:**
+- `432796b` — Stage 2 emergent space toy model
+- `448f80d` — Stage 2 output report
 
 ## Changed files
 
