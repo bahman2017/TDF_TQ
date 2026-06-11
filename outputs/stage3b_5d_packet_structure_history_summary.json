@@ -1,0 +1,79 @@
+{
+  "statement_5d": "5D toy state-space means full packet counts (N_a,N_b,N_c,N_t) plus update-history index; not physical 5D spacetime.",
+  "bounds": {
+    "max_N_a": 2,
+    "max_N_b": 2,
+    "max_N_c": 0
+  },
+  "initial_total_tau": 100,
+  "final_total_tau": 100,
+  "total_tau_conserved": true,
+  "initial_localization_ratio": 1.0,
+  "final_localization_ratio": 0.2,
+  "initial_support_size": 9,
+  "final_support_size": 9,
+  "initial_center_of_excess_tau": [1.0, 1.0, 0.0],
+  "final_center_of_excess_tau": [1.2, 0.9, 0.0],
+  "max_tau_profile_l1_step_change": 8,
+  "min_support_overlap_between_steps": 1.0,
+  "structure_persistence_score": 0.7037037037037037,
+  "quasi_stable_summary": {
+    "total_tau_conserved": true,
+    "max_tau_profile_l1_step_change": 8,
+    "min_support_overlap_between_steps": 1.0,
+    "initial_localization_ratio": 1.0,
+    "final_localization_ratio": 0.2,
+    "initial_support_size": 9,
+    "final_support_size": 9,
+    "initial_center": [1.0, 1.0, 0.0],
+    "final_center": [1.2, 0.9, 0.0],
+    "quasi_stable_pass": false
+  },
+  "step_summaries": [
+    {
+      "step": 0,
+      "packet_count": 9,
+      "min_tau": 10,
+      "max_tau": 20,
+      "total_tau": 100,
+      "total_excess_tau": 10,
+      "support_size_above_baseline": 1,
+      "localization_ratio": 1.0,
+      "center_of_excess_tau": [1.0, 1.0, 0.0]
+    },
+    {
+      "step": 1,
+      "packet_count": 9,
+      "min_tau": 10,
+      "max_tau": 16,
+      "total_tau": 100,
+      "total_excess_tau": 10,
+      "support_size_above_baseline": 5,
+      "localization_ratio": 0.6,
+      "center_of_excess_tau": [1.0, 1.0, 0.0]
+    },
+    {
+      "step": 2,
+      "packet_count": 9,
+      "min_tau": 10,
+      "max_tau": 12,
+      "total_tau": 100,
+      "total_excess_tau": 10,
+      "support_size_above_baseline": 7,
+      "localization_ratio": 0.2,
+      "center_of_excess_tau": [1.2, 1.0, 0.0]
+    },
+    {
+      "step": 3,
+      "packet_count": 9,
+      "min_tau": 10,
+      "max_tau": 12,
+      "total_tau": 100,
+      "total_excess_tau": 10,
+      "support_size_above_baseline": 8,
+      "localization_ratio": 0.2,
+      "center_of_excess_tau": [1.2, 0.9, 0.0]
+    }
+  ],
+  "statement": "Toy packet-structure history only; not quantum dynamics, not particle physics, not GR/Newtonian gravity, not an electron-like candidate yet."
+}

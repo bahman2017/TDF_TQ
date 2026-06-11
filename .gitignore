@@ -41,3 +41,7 @@ outputs/*
 !outputs/stage1_temporal_packet_primitives_report.md
 !outputs/stage2_emergent_space_toy_model_report.md
 !outputs/stage2_emergent_space_summary.json
+!outputs/stage3a_delta_tau_field_proxy_report.md
+!outputs/stage3a_delta_tau_field_proxy_summary.json
+!outputs/stage3b_5d_packet_structure_history_report.md
+!outputs/stage3b_5d_packet_structure_history_summary.json
