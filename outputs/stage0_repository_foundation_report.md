@@ -2,7 +2,9 @@
 
 **Date:** 2026-06-10  
 **Branch:** `feature/stage0-repository-foundation`  
-**Commit hash:** `15bb4df`
+**Commits:**
+- `15bb4df` — Stage 0 repository foundation
+- `1b0b3ed` — Stage 0 output report
 
 ## Changed files
 
