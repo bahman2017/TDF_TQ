@@ -1,5 +1,10 @@
 """TDF_TQ — Temporal Quantum Foundation."""
 
+from tdf_tq.candidates import (
+    CandidateEvaluation,
+    LocalizedCandidateCriteria,
+    evaluate_localized_candidate,
+)
 from tdf_tq.constants import (
     C_SYMBOL,
     L_Q_SYMBOL,
@@ -30,7 +35,17 @@ from tdf_tq.gravity_proxy import (
     laplacian_proxy,
     normalized_direction,
 )
-from tdf_tq.history import StructureHistory, structure_history_from_field_sequence
+from tdf_tq.history import (
+    StructureHistory,
+    active_center_drift,
+    active_center_series,
+    active_localization_ratio_series,
+    active_support_size_series,
+    initial_baseline_tau,
+    max_active_tau_profile_l1_step_change,
+    min_active_support_overlap_between_steps,
+    structure_history_from_field_sequence,
+)
 from tdf_tq.metrics import (
     deterministic_spatial_path,
     emergent_manhattan_distance,
@@ -44,6 +59,12 @@ from tdf_tq.neighborhoods import (
     spatial_unit_neighbors,
 )
 from tdf_tq.packets import TemporalPacket
+from tdf_tq.patterns import (
+    compact_square_field,
+    deterministic_seed_suite,
+    plus_cross_field,
+    single_peak_field,
+)
 from tdf_tq.relations import (
     PacketDelta,
     delta_tau_matches,
@@ -52,10 +73,18 @@ from tdf_tq.relations import (
     same_temporal_layer,
     translate_packet,
 )
+from tdf_tq.search import best_candidate_evaluation, run_stable_localized_structure_search
 from tdf_tq.space import SpatialBounds, SpatialSlice
 from tdf_tq.stability import is_history_quasi_stable, structure_persistence_score
 from tdf_tq.structure import (
     PacketStructure,
+    active_center_of_excess_tau,
+    active_localization_ratio,
+    active_support_above_baseline,
+    active_support_overlap_ratio,
+    active_support_size_above_baseline,
+    active_tau_profile_l1_difference,
+    active_tau_values_above_baseline,
     packet_structure_from_field,
     support_overlap_ratio,
     tau_profile_l1_difference,
@@ -65,35 +94,58 @@ __all__ = [
     "C_SYMBOL",
     "L_Q_SYMBOL",
     "T_Q_SYMBOL",
+    "CandidateEvaluation",
     "DeltaTauField",
     "FieldEvolutionConfig",
+    "LocalizedCandidateCriteria",
     "PacketDelta",
     "PacketStructure",
     "SpatialBounds",
     "SpatialSlice",
     "StructureHistory",
     "TemporalPacket",
+    "active_center_drift",
+    "active_center_of_excess_tau",
+    "active_center_series",
+    "active_localization_ratio",
+    "active_localization_ratio_series",
+    "active_support_above_baseline",
+    "active_support_overlap_ratio",
+    "active_support_size_above_baseline",
+    "active_support_size_series",
+    "active_tau_profile_l1_difference",
+    "active_tau_values_above_baseline",
+    "best_candidate_evaluation",
+    "compact_square_field",
     "conservative_pairwise_relaxation_step",
     "delta_tau",
     "delta_tau_matches",
+    "deterministic_seed_suite",
     "deterministic_spatial_path",
     "emergent_euclidean_distance",
     "emergent_manhattan_distance",
     "emergent_unit_edge_length",
+    "evaluate_localized_candidate",
     "finite_difference_gradient",
     "gradient_magnitude",
     "gravity_like_direction_proxy",
     "identity_step",
+    "initial_baseline_tau",
     "is_history_quasi_stable",
     "is_spatial_unit_neighbor",
     "laplacian_proxy",
+    "max_active_tau_profile_l1_step_change",
+    "min_active_support_overlap_between_steps",
     "normalized_direction",
     "packet_delta",
     "packet_structure_from_field",
+    "plus_cross_field",
     "radial_delta_tau_field",
     "run_field_evolution",
+    "run_stable_localized_structure_search",
     "same_spatial_position",
     "same_temporal_layer",
+    "single_peak_field",
     "spatial_count_delta",
     "spatial_count_l1_distance",
     "spatial_edges",

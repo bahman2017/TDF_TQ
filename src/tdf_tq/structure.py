@@ -119,3 +119,103 @@ def tau_profile_l1_difference(structure_a: PacketStructure, structure_b: PacketS
     tau_b = structure_b.tau_values()
     all_keys = set(tau_a) | set(tau_b)
     return sum(abs(tau_a.get(key, 0) - tau_b.get(key, 0)) for key in all_keys)
+
+
+def _resolve_baseline(structure: PacketStructure, baseline: int | None) -> int:
+    if baseline is None:
+        return structure.baseline_tau()
+    if not isinstance(baseline, int) or isinstance(baseline, bool):
+        raise TypeError("baseline must be an integer")
+    if baseline < 0:
+        raise ValueError("baseline must be non-negative")
+    return baseline
+
+
+def active_support_above_baseline(
+    structure: PacketStructure,
+    baseline: int | None = None,
+) -> tuple[tuple[int, int, int], ...]:
+    """Sorted spatial sites where N_t exceeds the fixed baseline."""
+    base = _resolve_baseline(structure, baseline)
+    return tuple(
+        sorted(key for key, tau in structure.tau_values().items() if tau > base)
+    )
+
+
+def active_support_size_above_baseline(
+    structure: PacketStructure,
+    baseline: int | None = None,
+) -> int:
+    return len(active_support_above_baseline(structure, baseline))
+
+
+def active_tau_values_above_baseline(
+    structure: PacketStructure,
+    baseline: int | None = None,
+) -> dict[tuple[int, int, int], int]:
+    """Excess tau (N_t - baseline) for active sites only."""
+    base = _resolve_baseline(structure, baseline)
+    return {
+        key: tau - base
+        for key, tau in structure.tau_values().items()
+        if tau > base
+    }
+
+
+def active_center_of_excess_tau(
+    structure: PacketStructure,
+    baseline: int | None = None,
+) -> tuple[float, float, float] | None:
+    """Weighted centroid over active excess tau sites only."""
+    excess = active_tau_values_above_baseline(structure, baseline)
+    total = sum(excess.values())
+    if total == 0:
+        return None
+    weighted = [0.0, 0.0, 0.0]
+    for (n_a, n_b, n_c), weight in excess.items():
+        weighted[0] += n_a * weight
+        weighted[1] += n_b * weight
+        weighted[2] += n_c * weight
+    return (weighted[0] / total, weighted[1] / total, weighted[2] / total)
+
+
+def active_localization_ratio(
+    structure: PacketStructure,
+    baseline: int | None = None,
+) -> float:
+    """max active excess / total active excess; zero when no active excess."""
+    excess = active_tau_values_above_baseline(structure, baseline)
+    total = sum(excess.values())
+    if total == 0:
+        return 0.0
+    return max(excess.values()) / total
+
+
+def active_support_overlap_ratio(
+    structure_a: PacketStructure,
+    structure_b: PacketStructure,
+    baseline_a: int | None = None,
+    baseline_b: int | None = None,
+) -> float:
+    """Jaccard overlap of active supports above baseline."""
+    set_a = set(active_support_above_baseline(structure_a, baseline_a))
+    set_b = set(active_support_above_baseline(structure_b, baseline_b))
+    if not set_a and not set_b:
+        return 1.0
+    union = set_a | set_b
+    if not union:
+        return 1.0
+    return len(set_a & set_b) / len(union)
+
+
+def active_tau_profile_l1_difference(
+    structure_a: PacketStructure,
+    structure_b: PacketStructure,
+    baseline_a: int | None = None,
+    baseline_b: int | None = None,
+) -> int:
+    """L1 difference over active excess profiles (missing site counts as zero excess)."""
+    excess_a = active_tau_values_above_baseline(structure_a, baseline_a)
+    excess_b = active_tau_values_above_baseline(structure_b, baseline_b)
+    all_keys = set(excess_a) | set(excess_b)
+    return sum(abs(excess_a.get(key, 0) - excess_b.get(key, 0)) for key in all_keys)

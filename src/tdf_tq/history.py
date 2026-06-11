@@ -3,8 +3,15 @@
 from dataclasses import dataclass
 
 from tdf_tq.fields import DeltaTauField
+import math
+
 from tdf_tq.structure import (
     PacketStructure,
+    active_center_of_excess_tau,
+    active_localization_ratio,
+    active_support_overlap_ratio,
+    active_support_size_above_baseline,
+    active_tau_profile_l1_difference,
     packet_structure_from_field,
     support_overlap_ratio,
     tau_profile_l1_difference,
@@ -99,6 +106,98 @@ class StructureHistory:
             "final_center": final.center_of_excess_tau(),
             "quasi_stable_pass": quasi_stable_pass,
         }
+
+
+def initial_baseline_tau(history: StructureHistory) -> int:
+    """Fixed baseline tau from the initial structure."""
+    return history.initial().baseline_tau()
+
+
+def _resolve_history_baseline(history: StructureHistory, baseline: int | None) -> int:
+    if baseline is None:
+        return initial_baseline_tau(history)
+    if not isinstance(baseline, int) or isinstance(baseline, bool):
+        raise TypeError("baseline must be an integer")
+    if baseline < 0:
+        raise ValueError("baseline must be non-negative")
+    return baseline
+
+
+def active_support_size_series(
+    history: StructureHistory,
+    baseline: int | None = None,
+) -> tuple[int, ...]:
+    base = _resolve_history_baseline(history, baseline)
+    return tuple(
+        active_support_size_above_baseline(structure, base) for structure in history.structures
+    )
+
+
+def active_center_series(
+    history: StructureHistory,
+    baseline: int | None = None,
+) -> tuple[tuple[float, float, float] | None, ...]:
+    base = _resolve_history_baseline(history, baseline)
+    return tuple(
+        active_center_of_excess_tau(structure, base) for structure in history.structures
+    )
+
+
+def active_localization_ratio_series(
+    history: StructureHistory,
+    baseline: int | None = None,
+) -> tuple[float, ...]:
+    base = _resolve_history_baseline(history, baseline)
+    return tuple(
+        active_localization_ratio(structure, base) for structure in history.structures
+    )
+
+
+def max_active_tau_profile_l1_step_change(
+    history: StructureHistory,
+    baseline: int | None = None,
+) -> int:
+    base = _resolve_history_baseline(history, baseline)
+    if history.length() < 2:
+        return 0
+    return max(
+        active_tau_profile_l1_difference(
+            history.structures[i], history.structures[i + 1], base, base
+        )
+        for i in range(history.length() - 1)
+    )
+
+
+def min_active_support_overlap_between_steps(
+    history: StructureHistory,
+    baseline: int | None = None,
+) -> float:
+    base = _resolve_history_baseline(history, baseline)
+    if history.length() < 2:
+        return 1.0
+    return min(
+        active_support_overlap_ratio(
+            history.structures[i], history.structures[i + 1], base, base
+        )
+        for i in range(history.length() - 1)
+    )
+
+
+def active_center_drift(
+    history: StructureHistory,
+    baseline: int | None = None,
+) -> float | None:
+    """Euclidean distance between initial and final active excess centroids."""
+    base = _resolve_history_baseline(history, baseline)
+    initial_center = active_center_of_excess_tau(history.initial(), base)
+    final_center = active_center_of_excess_tau(history.final(), base)
+    if initial_center is None or final_center is None:
+        return None
+    return math.sqrt(
+        (final_center[0] - initial_center[0]) ** 2
+        + (final_center[1] - initial_center[1]) ** 2
+        + (final_center[2] - initial_center[2]) ** 2
+    )
 
 
 def structure_history_from_field_sequence(

@@ -2,7 +2,9 @@
 
 **Date:** 2026-06-10  
 **Branch:** `feature/stage3b-5d-packet-structure-history-stability`  
-**Commit hash:** `d39c001`
+**Commits:**
+- `d39c001` — Stage 3B 5D packet-structure history and stability primitives
+- `78aa714` — Stage 3B output report
 
 ## Changed files
 
