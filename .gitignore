@@ -38,3 +38,4 @@ Thumbs.db
 outputs/*
 !outputs/README.md
 !outputs/stage0_repository_foundation_report.md
+!outputs/stage1_temporal_packet_primitives_report.md

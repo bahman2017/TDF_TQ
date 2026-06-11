@@ -16,4 +16,4 @@ Staged development plan for the Temporal Quantum Foundation. Each stage builds o
 | **9** | QM exploratory layer | Exploratory QM-like behavior (not assumed derived) |
 | **10** | Documentation and Zenodo drafts | Publication-ready artifacts |
 
-**Current stage:** 0 — Repository foundation.
+**Current stage:** 1 — Temporal packet primitives.
