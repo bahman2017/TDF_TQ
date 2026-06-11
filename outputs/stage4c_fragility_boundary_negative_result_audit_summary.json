@@ -1,0 +1,1485 @@
+{
+  "anchor_dependence_results": [
+    {
+      "anchor": [
+        0,
+        0,
+        0
+      ],
+      "anchor_name": "centroid",
+      "outcomes": [
+        {
+          "changed": true,
+          "classification": "INCONCLUSIVE",
+          "passed": false,
+          "steps": 3
+        },
+        {
+          "changed": true,
+          "classification": "FAIL",
+          "passed": true,
+          "steps": 5
+        },
+        {
+          "changed": true,
+          "classification": "FAIL",
+          "passed": true,
+          "steps": 8
+        },
+        {
+          "changed": true,
+          "classification": "INCONCLUSIVE",
+          "passed": false,
+          "steps": 13
+        }
+      ],
+      "seed_label": "compact_2x2_corner",
+      "update_rule_label": "conservative_centered_cohesion"
+    },
+    {
+      "anchor": [
+        1,
+        1,
+        0
+      ],
+      "anchor_name": "grid_center",
+      "outcomes": [
+        {
+          "changed": true,
+          "classification": "INCONCLUSIVE",
+          "passed": false,
+          "steps": 3
+        },
+        {
+          "changed": true,
+          "classification": "FAIL",
+          "passed": true,
+          "steps": 5
+        },
+        {
+          "changed": true,
+          "classification": "FAIL",
+          "passed": true,
+          "steps": 8
+        },
+        {
+          "changed": true,
+          "classification": "INCONCLUSIVE",
+          "passed": false,
+          "steps": 13
+        }
+      ],
+      "seed_label": "compact_2x2_corner",
+      "update_rule_label": "conservative_centered_cohesion"
+    },
+    {
+      "anchor": [
+        1,
+        0,
+        0
+      ],
+      "anchor_name": "shift_plus_a",
+      "outcomes": [
+        {
+          "changed": true,
+          "classification": "INCONCLUSIVE",
+          "passed": false,
+          "steps": 3
+        },
+        {
+          "changed": true,
+          "classification": "FAIL",
+          "passed": true,
+          "steps": 5
+        },
+        {
+          "changed": true,
+          "classification": "FAIL",
+          "passed": true,
+          "steps": 8
+        },
+        {
+          "changed": true,
+          "classification": "INCONCLUSIVE",
+          "passed": false,
+          "steps": 13
+        }
+      ],
+      "seed_label": "compact_2x2_corner",
+      "update_rule_label": "conservative_centered_cohesion"
+    },
+    {
+      "anchor": [
+        0,
+        0,
+        0
+      ],
+      "anchor_name": "shift_minus_b",
+      "outcomes": [
+        {
+          "changed": true,
+          "classification": "INCONCLUSIVE",
+          "passed": false,
+          "steps": 3
+        },
+        {
+          "changed": true,
+          "classification": "FAIL",
+          "passed": true,
+          "steps": 5
+        },
+        {
+          "changed": true,
+          "classification": "FAIL",
+          "passed": true,
+          "steps": 8
+        },
+        {
+          "changed": true,
+          "classification": "INCONCLUSIVE",
+          "passed": false,
+          "steps": 13
+        }
+      ],
+      "seed_label": "compact_2x2_corner",
+      "update_rule_label": "conservative_centered_cohesion"
+    },
+    {
+      "anchor": [
+        1,
+        1,
+        0
+      ],
+      "anchor_name": "centroid",
+      "outcomes": [
+        {
+          "changed": true,
+          "classification": "INCONCLUSIVE",
+          "passed": false,
+          "steps": 3
+        },
+        {
+          "changed": true,
+          "classification": "INCONCLUSIVE",
+          "passed": false,
+          "steps": 5
+        },
+        {
+          "changed": true,
+          "classification": "INCONCLUSIVE",
+          "passed": false,
+          "steps": 8
+        },
+        {
+          "changed": true,
+          "classification": "INCONCLUSIVE",
+          "passed": false,
+          "steps": 13
+        }
+      ],
+      "seed_label": "plus_cross_center",
+      "update_rule_label": "conservative_centered_cohesion"
+    },
+    {
+      "anchor": [
+        1,
+        1,
+        0
+      ],
+      "anchor_name": "grid_center",
+      "outcomes": [
+        {
+          "changed": true,
+          "classification": "INCONCLUSIVE",
+          "passed": false,
+          "steps": 3
+        },
+        {
+          "changed": true,
+          "classification": "INCONCLUSIVE",
+          "passed": false,
+          "steps": 5
+        },
+        {
+          "changed": true,
+          "classification": "INCONCLUSIVE",
+          "passed": false,
+          "steps": 8
+        },
+        {
+          "changed": true,
+          "classification": "INCONCLUSIVE",
+          "passed": false,
+          "steps": 13
+        }
+      ],
+      "seed_label": "plus_cross_center",
+      "update_rule_label": "conservative_centered_cohesion"
+    },
+    {
+      "anchor": [
+        2,
+        1,
+        0
+      ],
+      "anchor_name": "shift_plus_a",
+      "outcomes": [
+        {
+          "changed": true,
+          "classification": "INCONCLUSIVE",
+          "passed": false,
+          "steps": 3
+        },
+        {
+          "changed": true,
+          "classification": "INCONCLUSIVE",
+          "passed": false,
+          "steps": 5
+        },
+        {
+          "changed": true,
+          "classification": "INCONCLUSIVE",
+          "passed": false,
+          "steps": 8
+        },
+        {
+          "changed": true,
+          "classification": "INCONCLUSIVE",
+          "passed": false,
+          "steps": 13
+        }
+      ],
+      "seed_label": "plus_cross_center",
+      "update_rule_label": "conservative_centered_cohesion"
+    },
+    {
+      "anchor": [
+        1,
+        0,
+        0
+      ],
+      "anchor_name": "shift_minus_b",
+      "outcomes": [
+        {
+          "changed": true,
+          "classification": "INCONCLUSIVE",
+          "passed": false,
+          "steps": 3
+        },
+        {
+          "changed": true,
+          "classification": "INCONCLUSIVE",
+          "passed": false,
+          "steps": 5
+        },
+        {
+          "changed": true,
+          "classification": "INCONCLUSIVE",
+          "passed": false,
+          "steps": 8
+        },
+        {
+          "changed": true,
+          "classification": "INCONCLUSIVE",
+          "passed": false,
+          "steps": 13
+        }
+      ],
+      "seed_label": "plus_cross_center",
+      "update_rule_label": "conservative_centered_cohesion"
+    }
+  ],
+  "audit_config": {
+    "baseline_tau": 10,
+    "candidates": [
+      [
+        "compact_2x2_corner",
+        "conservative_centered_cohesion"
+      ],
+      [
+        "plus_cross_center",
+        "conservative_centered_cohesion"
+      ]
+    ],
+    "criteria_profiles": [
+      "stage4b_original",
+      "stricter_localization",
+      "stricter_overlap",
+      "stricter_drift",
+      "combined_strict"
+    ],
+    "evolution_config": {
+      "max_transfer_per_edge": 1,
+      "threshold": 2
+    },
+    "excess_tau": 10,
+    "grid_sizes": [
+      {
+        "max_N_a": 2,
+        "max_N_b": 2,
+        "max_N_c": 0,
+        "name": "3x3x1"
+      },
+      {
+        "max_N_a": 4,
+        "max_N_b": 4,
+        "max_N_c": 0,
+        "name": "5x5x1"
+      }
+    ],
+    "steps": [
+      3,
+      5,
+      8,
+      13
+    ]
+  },
+  "candidate_results": [
+    {
+      "fragile_pass_conditions": 11,
+      "robust_pass_conditions": 2,
+      "seed_label": "compact_2x2_corner",
+      "update_rule_label": "conservative_centered_cohesion"
+    },
+    {
+      "fragile_pass_conditions": 3,
+      "robust_pass_conditions": 0,
+      "seed_label": "plus_cross_center",
+      "update_rule_label": "conservative_centered_cohesion"
+    }
+  ],
+  "criteria_profile_results": [
+    {
+      "classification": "FAIL",
+      "passed": true,
+      "profile": "stage4b_original",
+      "seed_label": "compact_2x2_corner",
+      "steps": 3,
+      "update_rule_label": "conservative_centered_cohesion"
+    },
+    {
+      "classification": "FAIL",
+      "passed": true,
+      "profile": "stage4b_original",
+      "seed_label": "compact_2x2_corner",
+      "steps": 5,
+      "update_rule_label": "conservative_centered_cohesion"
+    },
+    {
+      "classification": "FAIL",
+      "passed": true,
+      "profile": "stage4b_original",
+      "seed_label": "compact_2x2_corner",
+      "steps": 8,
+      "update_rule_label": "conservative_centered_cohesion"
+    },
+    {
+      "classification": "FAIL",
+      "passed": true,
+      "profile": "stage4b_original",
+      "seed_label": "compact_2x2_corner",
+      "steps": 13,
+      "update_rule_label": "conservative_centered_cohesion"
+    },
+    {
+      "classification": "INCONCLUSIVE",
+      "passed": false,
+      "profile": "stricter_localization",
+      "seed_label": "compact_2x2_corner",
+      "steps": 3,
+      "update_rule_label": "conservative_centered_cohesion"
+    },
+    {
+      "classification": "FAIL",
+      "passed": true,
+      "profile": "stricter_localization",
+      "seed_label": "compact_2x2_corner",
+      "steps": 5,
+      "update_rule_label": "conservative_centered_cohesion"
+    },
+    {
+      "classification": "FAIL",
+      "passed": true,
+      "profile": "stricter_localization",
+      "seed_label": "compact_2x2_corner",
+      "steps": 8,
+      "update_rule_label": "conservative_centered_cohesion"
+    },
+    {
+      "classification": "FAIL",
+      "passed": true,
+      "profile": "stricter_localization",
+      "seed_label": "compact_2x2_corner",
+      "steps": 13,
+      "update_rule_label": "conservative_centered_cohesion"
+    },
+    {
+      "classification": "FAIL",
+      "passed": true,
+      "profile": "stricter_overlap",
+      "seed_label": "compact_2x2_corner",
+      "steps": 3,
+      "update_rule_label": "conservative_centered_cohesion"
+    },
+    {
+      "classification": "FAIL",
+      "passed": true,
+      "profile": "stricter_overlap",
+      "seed_label": "compact_2x2_corner",
+      "steps": 5,
+      "update_rule_label": "conservative_centered_cohesion"
+    },
+    {
+      "classification": "FAIL",
+      "passed": true,
+      "profile": "stricter_overlap",
+      "seed_label": "compact_2x2_corner",
+      "steps": 8,
+      "update_rule_label": "conservative_centered_cohesion"
+    },
+    {
+      "classification": "INCONCLUSIVE",
+      "passed": false,
+      "profile": "stricter_overlap",
+      "seed_label": "compact_2x2_corner",
+      "steps": 13,
+      "update_rule_label": "conservative_centered_cohesion"
+    },
+    {
+      "classification": "FAIL",
+      "passed": true,
+      "profile": "stricter_drift",
+      "seed_label": "compact_2x2_corner",
+      "steps": 3,
+      "update_rule_label": "conservative_centered_cohesion"
+    },
+    {
+      "classification": "FAIL",
+      "passed": true,
+      "profile": "stricter_drift",
+      "seed_label": "compact_2x2_corner",
+      "steps": 5,
+      "update_rule_label": "conservative_centered_cohesion"
+    },
+    {
+      "classification": "FAIL",
+      "passed": true,
+      "profile": "stricter_drift",
+      "seed_label": "compact_2x2_corner",
+      "steps": 8,
+      "update_rule_label": "conservative_centered_cohesion"
+    },
+    {
+      "classification": "INCONCLUSIVE",
+      "passed": false,
+      "profile": "stricter_drift",
+      "seed_label": "compact_2x2_corner",
+      "steps": 13,
+      "update_rule_label": "conservative_centered_cohesion"
+    },
+    {
+      "classification": "INCONCLUSIVE",
+      "passed": false,
+      "profile": "combined_strict",
+      "seed_label": "compact_2x2_corner",
+      "steps": 3,
+      "update_rule_label": "conservative_centered_cohesion"
+    },
+    {
+      "classification": "FAIL",
+      "passed": true,
+      "profile": "combined_strict",
+      "seed_label": "compact_2x2_corner",
+      "steps": 5,
+      "update_rule_label": "conservative_centered_cohesion"
+    },
+    {
+      "classification": "FAIL",
+      "passed": true,
+      "profile": "combined_strict",
+      "seed_label": "compact_2x2_corner",
+      "steps": 8,
+      "update_rule_label": "conservative_centered_cohesion"
+    },
+    {
+      "classification": "INCONCLUSIVE",
+      "passed": false,
+      "profile": "combined_strict",
+      "seed_label": "compact_2x2_corner",
+      "steps": 13,
+      "update_rule_label": "conservative_centered_cohesion"
+    },
+    {
+      "classification": "FAIL",
+      "passed": true,
+      "profile": "stage4b_original",
+      "seed_label": "plus_cross_center",
+      "steps": 3,
+      "update_rule_label": "conservative_centered_cohesion"
+    },
+    {
+      "classification": "INCONCLUSIVE",
+      "passed": false,
+      "profile": "stage4b_original",
+      "seed_label": "plus_cross_center",
+      "steps": 5,
+      "update_rule_label": "conservative_centered_cohesion"
+    },
+    {
+      "classification": "INCONCLUSIVE",
+      "passed": false,
+      "profile": "stage4b_original",
+      "seed_label": "plus_cross_center",
+      "steps": 8,
+      "update_rule_label": "conservative_centered_cohesion"
+    },
+    {
+      "classification": "INCONCLUSIVE",
+      "passed": false,
+      "profile": "stage4b_original",
+      "seed_label": "plus_cross_center",
+      "steps": 13,
+      "update_rule_label": "conservative_centered_cohesion"
+    },
+    {
+      "classification": "FAIL",
+      "passed": true,
+      "profile": "stricter_localization",
+      "seed_label": "plus_cross_center",
+      "steps": 3,
+      "update_rule_label": "conservative_centered_cohesion"
+    },
+    {
+      "classification": "INCONCLUSIVE",
+      "passed": false,
+      "profile": "stricter_localization",
+      "seed_label": "plus_cross_center",
+      "steps": 5,
+      "update_rule_label": "conservative_centered_cohesion"
+    },
+    {
+      "classification": "INCONCLUSIVE",
+      "passed": false,
+      "profile": "stricter_localization",
+      "seed_label": "plus_cross_center",
+      "steps": 8,
+      "update_rule_label": "conservative_centered_cohesion"
+    },
+    {
+      "classification": "INCONCLUSIVE",
+      "passed": false,
+      "profile": "stricter_localization",
+      "seed_label": "plus_cross_center",
+      "steps": 13,
+      "update_rule_label": "conservative_centered_cohesion"
+    },
+    {
+      "classification": "FAIL",
+      "passed": true,
+      "profile": "stricter_overlap",
+      "seed_label": "plus_cross_center",
+      "steps": 3,
+      "update_rule_label": "conservative_centered_cohesion"
+    },
+    {
+      "classification": "INCONCLUSIVE",
+      "passed": false,
+      "profile": "stricter_overlap",
+      "seed_label": "plus_cross_center",
+      "steps": 5,
+      "update_rule_label": "conservative_centered_cohesion"
+    },
+    {
+      "classification": "INCONCLUSIVE",
+      "passed": false,
+      "profile": "stricter_overlap",
+      "seed_label": "plus_cross_center",
+      "steps": 8,
+      "update_rule_label": "conservative_centered_cohesion"
+    },
+    {
+      "classification": "INCONCLUSIVE",
+      "passed": false,
+      "profile": "stricter_overlap",
+      "seed_label": "plus_cross_center",
+      "steps": 13,
+      "update_rule_label": "conservative_centered_cohesion"
+    },
+    {
+      "classification": "FAIL",
+      "passed": true,
+      "profile": "stricter_drift",
+      "seed_label": "plus_cross_center",
+      "steps": 3,
+      "update_rule_label": "conservative_centered_cohesion"
+    },
+    {
+      "classification": "INCONCLUSIVE",
+      "passed": false,
+      "profile": "stricter_drift",
+      "seed_label": "plus_cross_center",
+      "steps": 5,
+      "update_rule_label": "conservative_centered_cohesion"
+    },
+    {
+      "classification": "INCONCLUSIVE",
+      "passed": false,
+      "profile": "stricter_drift",
+      "seed_label": "plus_cross_center",
+      "steps": 8,
+      "update_rule_label": "conservative_centered_cohesion"
+    },
+    {
+      "classification": "INCONCLUSIVE",
+      "passed": false,
+      "profile": "stricter_drift",
+      "seed_label": "plus_cross_center",
+      "steps": 13,
+      "update_rule_label": "conservative_centered_cohesion"
+    },
+    {
+      "classification": "INCONCLUSIVE",
+      "passed": false,
+      "profile": "combined_strict",
+      "seed_label": "plus_cross_center",
+      "steps": 3,
+      "update_rule_label": "conservative_centered_cohesion"
+    },
+    {
+      "classification": "INCONCLUSIVE",
+      "passed": false,
+      "profile": "combined_strict",
+      "seed_label": "plus_cross_center",
+      "steps": 5,
+      "update_rule_label": "conservative_centered_cohesion"
+    },
+    {
+      "classification": "INCONCLUSIVE",
+      "passed": false,
+      "profile": "combined_strict",
+      "seed_label": "plus_cross_center",
+      "steps": 8,
+      "update_rule_label": "conservative_centered_cohesion"
+    },
+    {
+      "classification": "INCONCLUSIVE",
+      "passed": false,
+      "profile": "combined_strict",
+      "seed_label": "plus_cross_center",
+      "steps": 13,
+      "update_rule_label": "conservative_centered_cohesion"
+    }
+  ],
+  "grid_size_results": [
+    {
+      "grid": "3x3x1",
+      "offset": [
+        0,
+        0,
+        0
+      ],
+      "placement": "native",
+      "seed_label": "compact_2x2_corner",
+      "step_outcomes": [
+        {
+          "classification": "INCONCLUSIVE",
+          "passed_combined_strict": false,
+          "steps": 3
+        },
+        {
+          "classification": "FAIL",
+          "passed_combined_strict": true,
+          "steps": 5
+        },
+        {
+          "classification": "FAIL",
+          "passed_combined_strict": true,
+          "steps": 8
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "passed_combined_strict": false,
+          "steps": 13
+        }
+      ],
+      "update_rule_label": "conservative_centered_cohesion"
+    },
+    {
+      "grid": "5x5x1",
+      "offset": [
+        1,
+        1,
+        0
+      ],
+      "placement": "centered",
+      "seed_label": "compact_2x2_corner",
+      "step_outcomes": [
+        {
+          "classification": "INCONCLUSIVE",
+          "passed_combined_strict": false,
+          "steps": 3
+        },
+        {
+          "classification": "FAIL",
+          "passed_combined_strict": true,
+          "steps": 5
+        },
+        {
+          "classification": "FAIL",
+          "passed_combined_strict": true,
+          "steps": 8
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "passed_combined_strict": false,
+          "steps": 13
+        }
+      ],
+      "update_rule_label": "conservative_centered_cohesion"
+    },
+    {
+      "grid": "5x5x1",
+      "offset": [
+        0,
+        0,
+        0
+      ],
+      "placement": "off_center",
+      "seed_label": "compact_2x2_corner",
+      "step_outcomes": [
+        {
+          "classification": "INCONCLUSIVE",
+          "passed_combined_strict": false,
+          "steps": 3
+        },
+        {
+          "classification": "FAIL",
+          "passed_combined_strict": true,
+          "steps": 5
+        },
+        {
+          "classification": "FAIL",
+          "passed_combined_strict": true,
+          "steps": 8
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "passed_combined_strict": false,
+          "steps": 13
+        }
+      ],
+      "update_rule_label": "conservative_centered_cohesion"
+    },
+    {
+      "grid": "3x3x1",
+      "offset": [
+        0,
+        0,
+        0
+      ],
+      "placement": "native",
+      "seed_label": "plus_cross_center",
+      "step_outcomes": [
+        {
+          "classification": "INCONCLUSIVE",
+          "passed_combined_strict": false,
+          "steps": 3
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "passed_combined_strict": false,
+          "steps": 5
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "passed_combined_strict": false,
+          "steps": 8
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "passed_combined_strict": false,
+          "steps": 13
+        }
+      ],
+      "update_rule_label": "conservative_centered_cohesion"
+    },
+    {
+      "grid": "5x5x1",
+      "offset": [
+        1,
+        1,
+        0
+      ],
+      "placement": "centered",
+      "seed_label": "plus_cross_center",
+      "step_outcomes": [
+        {
+          "classification": "INCONCLUSIVE",
+          "passed_combined_strict": false,
+          "steps": 3
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "passed_combined_strict": false,
+          "steps": 5
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "passed_combined_strict": false,
+          "steps": 8
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "passed_combined_strict": false,
+          "steps": 13
+        }
+      ],
+      "update_rule_label": "conservative_centered_cohesion"
+    },
+    {
+      "grid": "5x5x1",
+      "offset": [
+        0,
+        0,
+        0
+      ],
+      "placement": "off_center",
+      "seed_label": "plus_cross_center",
+      "step_outcomes": [
+        {
+          "classification": "INCONCLUSIVE",
+          "passed_combined_strict": false,
+          "steps": 3
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "passed_combined_strict": false,
+          "steps": 5
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "passed_combined_strict": false,
+          "steps": 8
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "passed_combined_strict": false,
+          "steps": 13
+        }
+      ],
+      "update_rule_label": "conservative_centered_cohesion"
+    }
+  ],
+  "input_stage4b_best_result": {
+    "robustness_ratio": 0.07692307692307693,
+    "seed_label": "compact_2x2_corner",
+    "stable_count": 1,
+    "update_rule_label": "conservative_centered_cohesion"
+  },
+  "limitations": [
+    "Cohesion is an arbitrary toy retention rule, not physics.",
+    "Audit thresholds are deterministic but not experimentally calibrated.",
+    "Negative or fragile outcomes are scientifically acceptable.",
+    "Toy audit label only; not a particle, not an electron, not validated physics."
+  ],
+  "negative_controls": [
+    {
+      "changed": false,
+      "classification": "TRIVIAL_STABLE_CONTROL",
+      "control": "identity",
+      "passed": true
+    },
+    {
+      "changed": true,
+      "classification": "INCONCLUSIVE",
+      "control": "conservative_pairwise_relaxation",
+      "passed": false
+    },
+    {
+      "changed": true,
+      "classification": "FAIL",
+      "control": "shuffled_excess_field",
+      "is_nontrivial": false,
+      "passed": true
+    },
+    {
+      "changed": false,
+      "classification": "TRIVIAL_STABLE_CONTROL",
+      "control": "identity_long_steps",
+      "is_nontrivial": false
+    }
+  ],
+  "next_recommended_stage": "Stage 5 exploratory criteria design only if robust toy evidence appears; otherwise document negative-result boundary and refine search space.",
+  "non_claims": [
+    "No particle, electron, photon, mass, charge, spin, energy, hbar, alpha, QM, GR, or validated physics."
+  ],
+  "perturbation_results": [
+    {
+      "changed_across_history": true,
+      "perturbation_nontrivial_count": 0,
+      "perturbation_pass_fraction": 0.0,
+      "perturbation_passed_count": 0,
+      "perturbation_total": 12,
+      "perturbations": [
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "move_0_0_0_to_0_1_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "move_0_0_0_to_1_0_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "move_0_1_0_to_0_0_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "move_0_1_0_to_0_2_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "move_0_1_0_to_1_1_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "move_1_0_0_to_0_0_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "move_1_0_0_to_1_1_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "move_1_0_0_to_2_0_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "move_1_1_0_to_0_1_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "move_1_1_0_to_1_0_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "move_1_1_0_to_1_2_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "move_1_1_0_to_2_1_0"
+        }
+      ],
+      "seed_label": "compact_2x2_corner",
+      "type": "single_tau",
+      "unperturbed_classification": "INCONCLUSIVE",
+      "unperturbed_passed": false,
+      "update_rule_label": "conservative_centered_cohesion"
+    },
+    {
+      "changed_across_history": true,
+      "perturbation_nontrivial_count": 0,
+      "perturbation_pass_fraction": 0.0,
+      "perturbation_passed_count": 0,
+      "perturbation_total": 24,
+      "perturbations": [
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "two_step_move_0_0_0_to_0_1_0__move_0_0_0_to_0_1_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "two_step_move_0_0_0_to_0_1_0__move_0_0_0_to_1_0_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "two_step_move_0_0_0_to_0_1_0__move_0_1_0_to_0_0_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "two_step_move_0_0_0_to_0_1_0__move_0_1_0_to_0_2_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "two_step_move_0_0_0_to_0_1_0__move_0_1_0_to_1_1_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "two_step_move_0_0_0_to_0_1_0__move_1_0_0_to_0_0_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "two_step_move_0_0_0_to_0_1_0__move_1_0_0_to_1_1_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "two_step_move_0_0_0_to_0_1_0__move_1_0_0_to_2_0_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "two_step_move_0_0_0_to_0_1_0__move_1_1_0_to_0_1_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "two_step_move_0_0_0_to_0_1_0__move_1_1_0_to_1_0_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "two_step_move_0_0_0_to_0_1_0__move_1_1_0_to_1_2_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "two_step_move_0_0_0_to_0_1_0__move_1_1_0_to_2_1_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "two_step_move_0_0_0_to_1_0_0__move_0_0_0_to_0_1_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "two_step_move_0_0_0_to_1_0_0__move_0_0_0_to_1_0_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "two_step_move_0_0_0_to_1_0_0__move_0_1_0_to_0_0_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "two_step_move_0_0_0_to_1_0_0__move_0_1_0_to_0_2_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "two_step_move_0_0_0_to_1_0_0__move_0_1_0_to_1_1_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "two_step_move_0_0_0_to_1_0_0__move_1_0_0_to_0_0_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "two_step_move_0_0_0_to_1_0_0__move_1_0_0_to_1_1_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "two_step_move_0_0_0_to_1_0_0__move_1_0_0_to_2_0_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "two_step_move_0_0_0_to_1_0_0__move_1_1_0_to_0_1_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "two_step_move_0_0_0_to_1_0_0__move_1_1_0_to_1_0_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "two_step_move_0_0_0_to_1_0_0__move_1_1_0_to_1_2_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "two_step_move_0_0_0_to_1_0_0__move_1_1_0_to_2_1_0"
+        }
+      ],
+      "seed_label": "compact_2x2_corner",
+      "type": "two_step",
+      "unperturbed_classification": "INCONCLUSIVE",
+      "unperturbed_passed": false,
+      "update_rule_label": "conservative_centered_cohesion"
+    },
+    {
+      "changed_across_history": true,
+      "perturbation_nontrivial_count": 0,
+      "perturbation_pass_fraction": 0.0,
+      "perturbation_passed_count": 0,
+      "perturbation_total": 12,
+      "perturbations": [
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "boundary_move_0_0_0_to_0_1_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "boundary_move_0_0_0_to_1_0_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "boundary_move_0_1_0_to_0_0_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "boundary_move_0_1_0_to_0_2_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "boundary_move_0_1_0_to_1_1_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "boundary_move_1_0_0_to_0_0_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "boundary_move_1_0_0_to_1_1_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "boundary_move_1_0_0_to_2_0_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "boundary_move_1_1_0_to_0_1_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "boundary_move_1_1_0_to_1_0_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "boundary_move_1_1_0_to_1_2_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "boundary_move_1_1_0_to_2_1_0"
+        }
+      ],
+      "seed_label": "compact_2x2_corner",
+      "type": "boundary_adjacent",
+      "unperturbed_classification": "INCONCLUSIVE",
+      "unperturbed_passed": false,
+      "update_rule_label": "conservative_centered_cohesion"
+    },
+    {
+      "changed_across_history": true,
+      "perturbation_nontrivial_count": 0,
+      "perturbation_pass_fraction": 0.0,
+      "perturbation_passed_count": 0,
+      "perturbation_total": 12,
+      "perturbations": [
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "move_0_1_0_to_0_0_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "move_0_1_0_to_0_2_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "move_0_1_0_to_1_1_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "move_1_0_0_to_0_0_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "move_1_0_0_to_1_1_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "move_1_0_0_to_2_0_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "move_1_1_0_to_0_1_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "move_1_1_0_to_1_0_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "move_1_1_0_to_1_2_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "move_1_1_0_to_2_1_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "move_1_2_0_to_0_2_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "move_1_2_0_to_1_1_0"
+        }
+      ],
+      "seed_label": "plus_cross_center",
+      "type": "single_tau",
+      "unperturbed_classification": "INCONCLUSIVE",
+      "unperturbed_passed": false,
+      "update_rule_label": "conservative_centered_cohesion"
+    },
+    {
+      "changed_across_history": true,
+      "perturbation_nontrivial_count": 0,
+      "perturbation_pass_fraction": 0.16666666666666666,
+      "perturbation_passed_count": 4,
+      "perturbation_total": 24,
+      "perturbations": [
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "two_step_move_0_1_0_to_0_0_0__move_0_0_0_to_0_1_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "two_step_move_0_1_0_to_0_0_0__move_0_0_0_to_1_0_0"
+        },
+        {
+          "classification": "FAIL",
+          "evaluation_passed": true,
+          "label": "two_step_move_0_1_0_to_0_0_0__move_0_1_0_to_0_0_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "two_step_move_0_1_0_to_0_0_0__move_0_1_0_to_0_2_0"
+        },
+        {
+          "classification": "FAIL",
+          "evaluation_passed": true,
+          "label": "two_step_move_0_1_0_to_0_0_0__move_0_1_0_to_1_1_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "two_step_move_0_1_0_to_0_0_0__move_1_0_0_to_0_0_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "two_step_move_0_1_0_to_0_0_0__move_1_0_0_to_1_1_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "two_step_move_0_1_0_to_0_0_0__move_1_0_0_to_2_0_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "two_step_move_0_1_0_to_0_0_0__move_1_1_0_to_0_1_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "two_step_move_0_1_0_to_0_0_0__move_1_1_0_to_1_0_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "two_step_move_0_1_0_to_0_0_0__move_1_1_0_to_1_2_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "two_step_move_0_1_0_to_0_0_0__move_1_1_0_to_2_1_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "two_step_move_0_1_0_to_0_2_0__move_0_1_0_to_0_0_0"
+        },
+        {
+          "classification": "FAIL",
+          "evaluation_passed": true,
+          "label": "two_step_move_0_1_0_to_0_2_0__move_0_1_0_to_0_2_0"
+        },
+        {
+          "classification": "FAIL",
+          "evaluation_passed": true,
+          "label": "two_step_move_0_1_0_to_0_2_0__move_0_1_0_to_1_1_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "two_step_move_0_1_0_to_0_2_0__move_0_2_0_to_0_1_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "two_step_move_0_1_0_to_0_2_0__move_0_2_0_to_1_2_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "two_step_move_0_1_0_to_0_2_0__move_1_0_0_to_0_0_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "two_step_move_0_1_0_to_0_2_0__move_1_0_0_to_1_1_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "two_step_move_0_1_0_to_0_2_0__move_1_0_0_to_2_0_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "two_step_move_0_1_0_to_0_2_0__move_1_1_0_to_0_1_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "two_step_move_0_1_0_to_0_2_0__move_1_1_0_to_1_0_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "two_step_move_0_1_0_to_0_2_0__move_1_1_0_to_1_2_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "two_step_move_0_1_0_to_0_2_0__move_1_1_0_to_2_1_0"
+        }
+      ],
+      "seed_label": "plus_cross_center",
+      "type": "two_step",
+      "unperturbed_classification": "INCONCLUSIVE",
+      "unperturbed_passed": false,
+      "update_rule_label": "conservative_centered_cohesion"
+    },
+    {
+      "changed_across_history": true,
+      "perturbation_nontrivial_count": 0,
+      "perturbation_pass_fraction": 0.0,
+      "perturbation_passed_count": 0,
+      "perturbation_total": 12,
+      "perturbations": [
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "boundary_move_0_1_0_to_0_0_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "boundary_move_0_1_0_to_0_2_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "boundary_move_0_1_0_to_1_1_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "boundary_move_1_0_0_to_0_0_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "boundary_move_1_0_0_to_1_1_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "boundary_move_1_0_0_to_2_0_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "boundary_move_1_1_0_to_0_1_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "boundary_move_1_1_0_to_1_0_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "boundary_move_1_1_0_to_1_2_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "boundary_move_1_1_0_to_2_1_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "boundary_move_1_2_0_to_0_2_0"
+        },
+        {
+          "classification": "INCONCLUSIVE",
+          "evaluation_passed": false,
+          "label": "boundary_move_1_2_0_to_1_1_0"
+        }
+      ],
+      "seed_label": "plus_cross_center",
+      "type": "boundary_adjacent",
+      "unperturbed_classification": "INCONCLUSIVE",
+      "unperturbed_passed": false,
+      "update_rule_label": "conservative_centered_cohesion"
+    }
+  ],
+  "stage": "4C",
+  "statement": "Stage 4C audits fragile Stage 4B nontrivial toy labels under stricter, broader deterministic checks; not particles and not electrons.",
+  "verdict": "FRAGILE_TOY_ARTIFACT"
+}

@@ -95,6 +95,19 @@ from tdf_tq.search import (
     run_stable_localized_structure_search,
     run_stage4b_robustness_suite,
 )
+from tdf_tq.stage4c_audit import (
+    STAGE4B_BEST_RESULT,
+    STAGE4C_CANDIDATES,
+    VERDICT_FRAGILE_TOY_ARTIFACT,
+    VERDICT_INCONCLUSIVE,
+    VERDICT_NEGATIVE_RESULT,
+    VERDICT_ROBUST_TOY_CANDIDATE,
+    audit_candidate,
+    criteria_profiles,
+    determine_stage4c_verdict,
+    run_negative_controls,
+    run_stage4c_fragility_audit,
+)
 from tdf_tq.space import SpatialBounds, SpatialSlice
 from tdf_tq.stability import is_history_quasi_stable, structure_persistence_score
 from tdf_tq.structure import (
@@ -127,6 +140,12 @@ __all__ = [
     "RobustnessResult",
     "PacketDelta",
     "PacketStructure",
+    "STAGE4B_BEST_RESULT",
+    "STAGE4C_CANDIDATES",
+    "VERDICT_FRAGILE_TOY_ARTIFACT",
+    "VERDICT_INCONCLUSIVE",
+    "VERDICT_NEGATIVE_RESULT",
+    "VERDICT_ROBUST_TOY_CANDIDATE",
     "SpatialBounds",
     "SpatialSlice",
     "StructureHistory",
@@ -143,6 +162,9 @@ __all__ = [
     "active_tau_profile_l1_difference",
     "active_tau_values_above_baseline",
     "anchor_counts_from_field",
+    "audit_candidate",
+    "criteria_profiles",
+    "determine_stage4c_verdict",
     "best_candidate_evaluation",
     "best_stage4b_result",
     "classify_nontrivial_stability",
@@ -177,6 +199,8 @@ __all__ = [
     "move_one_excess_tau_to_neighbor",
     "run_field_evolution",
     "run_stable_localized_structure_search",
+    "run_negative_controls",
+    "run_stage4c_fragility_audit",
     "run_stage4b_robustness_suite",
     "same_spatial_position",
     "same_temporal_layer",

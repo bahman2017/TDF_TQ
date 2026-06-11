@@ -49,3 +49,5 @@ outputs/*
 !outputs/stage4a_stable_localized_structure_search_summary.json
 !outputs/stage4b_candidate_robustness_nontrivial_stability_report.md
 !outputs/stage4b_candidate_robustness_nontrivial_stability_summary.json
+!outputs/stage4c_fragility_boundary_negative_result_audit_report.md
+!outputs/stage4c_fragility_boundary_negative_result_audit_summary.json

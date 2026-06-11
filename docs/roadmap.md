@@ -12,7 +12,7 @@ Staged development plan for the Temporal Quantum Foundation. Each stage builds o
 | **3** | Delta tau gravity proxy (full) | Newtonian/GR-like effective comparisons (future) |
 | **4A** | Stable localized Δτ structure search | Active-support candidate search (toy criteria) |
 | **4B** | Candidate robustness tests | Nontrivial-stability and perturbation tests |
-| **4C** | Nontrivial refinement / negative-result analysis | Refine criteria or document negative results |
+| **4C** | Fragility boundary / negative-result audit | Stricter criteria, grid-size, perturbation, anchor audits |
 | **4** | Stable structure search (broad) | Broader particle **candidate** exploration |
 | **5** | Electron-like candidate criteria | Search criteria for stable charged-like structures |
 | **6** | Propagating photon-like candidate | Radiation **candidates** |
@@ -21,4 +21,4 @@ Staged development plan for the Temporal Quantum Foundation. Each stage builds o
 | **9** | QM exploratory layer | Exploratory QM-like behavior (not assumed derived) |
 | **10** | Documentation and Zenodo drafts | Publication-ready artifacts |
 
-**Current stage:** 4B — Candidate robustness and nontrivial-stability tests.
+**Current stage:** 4C — Fragility boundary and negative-result audit (Stage 4B complete).
