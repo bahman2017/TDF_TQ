@@ -15,8 +15,9 @@ This document states what the TDF_TQ repository **is** and **is not**.
 
 ## Language conventions
 
-- Use **“candidate”** for particle-like or radiation-like structures until tests justify stronger language (e.g. “electron-like candidate”, not “the electron”).
+- Use **“candidate”** for localized or propagating toy patterns until robust evidence exists—never imply derived electrons, photons, mass, charge, or spin.
 - **Δτ by itself is not matter.** Temporal mismatch is a primitive quantity; matter-like behavior requires additional structure and evidence.
+- **Deferred targets:** electron-like, photon-like, and Standard-Model particle language are legacy roadmap wording only; they are not near-term derived targets in the corrected [roadmap](roadmap.md).
 
 ## Interpretation caution
 

@@ -1,5 +1,15 @@
 """TDF_TQ — Temporal Quantum Foundation."""
 
+from tdf_tq.action_catalog import (
+    run_stage4d_catalog_diagnostics,
+    run_stage4d_minimal_action_catalog,
+)
+from tdf_tq.actions import (
+    TemporalAction,
+    minimal_action_catalog,
+    run_action_steps,
+    validate_action_boundary,
+)
 from tdf_tq.candidates import (
     CandidateEvaluation,
     LocalizedCandidateCriteria,
@@ -140,6 +150,12 @@ __all__ = [
     "RobustnessResult",
     "PacketDelta",
     "PacketStructure",
+    "TemporalAction",
+    "minimal_action_catalog",
+    "run_action_steps",
+    "run_stage4d_catalog_diagnostics",
+    "run_stage4d_minimal_action_catalog",
+    "validate_action_boundary",
     "STAGE4B_BEST_RESULT",
     "STAGE4C_CANDIDATES",
     "VERDICT_FRAGILE_TOY_ARTIFACT",

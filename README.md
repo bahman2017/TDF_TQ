@@ -1,30 +1,22 @@
 # TDF_TQ — Temporal Quantum Foundation
 
-Extension of the Time Delay Field (TDF) program exploring whether a **time-first** model can generate emergent space, effective gravity, stable particle-like structures, and later QM-like behavior.
+Extension of the Time Delay Field (TDF) program exploring whether a **time-first** model can generate emergent space, effective gravity, stable localized structures, and later QM-like behavior—from temporal primitives only.
 
-**Current stage:** Stage 4C — Fragility boundary and negative-result audit (Stage 4B complete).
+**Current stage:** Stage 4D — Minimal temporal Action catalog and negative-result integration (Stage 4C merged).
 
 ## Mission
 
 Build deterministic, testable scaffolding around locked temporal primitives (`t_q`, `N_t`, `Δτ`) and emergent spatial packet counts—without claiming derived GR, QM, Standard Model particles, or validated fundamental constants.
 
-## Stage 4C — Fragility boundary and negative-result audit
+## Stage 4D — Minimal temporal Action catalog
 
-Stage 4C re-audits fragile Stage 4B nontrivial toy labels under stricter criteria, larger grids, expanded perturbations, and alternate cohesion anchors—without engineering positive results.
+Stage 4D integrates Stage 4C’s **FRAGILE_TOY_ARTIFACT** verdict and defines a minimal Action catalog (A0–A4) with diagnostics only. Legacy `conservative_centered_cohesion` is documented as an arbitrary retention heuristic—not physical binding—and is excluded from the primary benchmark matrix.
 
-Verdict categories: `ROBUST_TOY_CANDIDATE`, `FRAGILE_TOY_ARTIFACT`, `NEGATIVE_RESULT`, `INCONCLUSIVE`.
+**Stage 4D does not search for stable candidates or derive particles.**
 
-**Stage 4C does not identify particles or electrons.** Fragile or negative outcomes are acceptable scientific results.
+## Stage 4C — Fragility audit (merged)
 
-## Stage 4B — Candidate robustness and nontrivial-stability
-
-Stage 4B distinguishes trivial stability (identity controls), spreading (relaxation), and possible nontrivial toy stability under deterministic perturbation tests and `conservative_centered_cohesion` (arbitrary toy retention rule, not physics).
-
-Stage 4B found 2 unperturbed `NONTRIVIAL_STABLE_TOY_CANDIDATE` labels with low robustness ratio (~0.077).
-
-## Stage 4A — Stable localized structure search
-
-Active-support candidate search with PASS / INCONCLUSIVE / FAIL verdicts. Stage 4A found 0 PASS under default relaxation (3 INCONCLUSIVE).
+Stage 4C re-audited Stage 4B nontrivial labels under stricter stress. Verdict: **FRAGILE_TOY_ARTIFACT**.
 
 ## Install
 
@@ -44,14 +36,14 @@ python -m pytest
 
 ## Documentation
 
-- [Canonical reference](docs/canonical_reference.md) — locked definitions and claim maturity
-- [Roadmap](docs/roadmap.md) — staged development plan
-- [Stage 4B robustness](docs/stage4b_candidate_robustness_nontrivial_stability.md)
+- [Canonical reference](docs/canonical_reference.md)
+- [Roadmap](docs/roadmap.md) — corrected stage sequence
+- [Stage 4D Action catalog](docs/stage4d_minimal_temporal_action_catalog.md)
 - [Stage 4C fragility audit](docs/stage4c_fragility_boundary_negative_result_audit.md)
 
 ## Scientific caution
 
-This repository contains **working definitions and toy-model code only**. It does **not** derive GR, QM, electrons, mass, charge, spin, **ħ**, or **α**, or provide experimental validation. FAIL, INCONCLUSIVE, fragile toy artifacts, and negative results are acceptable scientific outcomes.
+Toy-model scaffolding only. No GR, QM, electron, photon, mass, charge, spin, **ħ**, **α**, or validated physics claims. Negative and fragile outcomes are acceptable.
 
 ## License
 

@@ -51,3 +51,5 @@ outputs/*
 !outputs/stage4b_candidate_robustness_nontrivial_stability_summary.json
 !outputs/stage4c_fragility_boundary_negative_result_audit_report.md
 !outputs/stage4c_fragility_boundary_negative_result_audit_summary.json
+!outputs/stage4d_minimal_temporal_action_catalog_report.md
+!outputs/stage4d_minimal_temporal_action_catalog_summary.json
